@@ -3,7 +3,7 @@ layout: home
 title: "Home"
 ---
 
-I’m a 5th year PhD candidate studying (Human Centered Design and Engineering)[https://www.hcde.washington.edu/] at the (University of Washington)[https://www.washington.edu/], where am co-advised by Drs. (Sean Munson)[https://www.smunson.com/] and (Audrey Desjardins)[http://www.audreydesjardins.com/]. My research is generously supported by a National Science Foundation Graduate Research Fellowship.
+I’m a 5th year PhD candidate studying [Human Centered Design and Engineering](https://www.hcde.washington.edu/) at the [University of Washington]([https://www.washington.edu/), where am co-advised by Drs. [Sean Munson](https://www.smunson.com/) and [Audrey Desjardins](http://www.audreydesjardins.com/). My research is generously supported by a National Science Foundation Graduate Research Fellowship.
 
 I am a human-computer interaction (HCI) researcher who studies ethical and social issues in technology design — specifically regarding topics of privacy and surveillance with data and smart technologies. My work mainly focuses on the smart home camera (e.g. Amazon Ring), in which I use qualitative and design research methods to understand the privacy experiences of bystanders and marginalized user groups in order to design more equitable technology futures.
 
