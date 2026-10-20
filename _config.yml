@@ -13,6 +13,18 @@ email_display: nhtan @ uw [dot] edu
 scholar_url: "https://scholar.google.com/citations?user=2R1It20AAAAJ"
 linkedin_url: "https://www.linkedin.com/in/neilly"
 
+# Social preview (link cards in Slack, iMessage, LinkedIn, etc.)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/share.jpg
+social:
+  name: Neilly H. Tan
+  links:
+    - https://scholar.google.com/citations?user=2R1It20AAAAJ
+    - https://www.linkedin.com/in/neilly
+
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
