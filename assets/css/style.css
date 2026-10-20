@@ -120,6 +120,10 @@ p { margin: 0 0 1rem; }
 .pub-meta strong { font-weight: 600; color: var(--text); }
 .pub-status { font-family: var(--heading-font); font-size: 12px; font-weight: 400; background: var(--highlight); color: var(--text); padding: 1px 5px; margin-left: 4px; white-space: nowrap; }
 
+/* teaching */
+.teach .pub-list { grid-template-columns: 110px minmax(0, 1fr); }
+.teach-role { font-weight: 420; color: #555; }
+
 /* ---------- small screens ---------- */
 @media (max-width: 767px) {
   :root { --gutter: 16px; }
@@ -131,6 +135,16 @@ p { margin: 0 0 1rem; }
   h1 { font-size: 2.3rem; }
   .pub-list { grid-template-columns: 44px minmax(0, 1fr); gap: 20px 12px; }
   .news-list { grid-template-columns: 1fr; gap: 2px; }
+  .teach .pub-list { grid-template-columns: 1fr; gap: 2px; }
+  .teach .pub { margin-bottom: 16px; }
   .news-list > span:not(.news-date) { margin-bottom: 14px; }
-  .site-nav { gap: 14px; }
+  .site-nav { gap: 12px; }
+  .site-nav a { font-size: 14px; letter-spacing: 0.02em; }
+  .logo img { height: 22px; }
+}
+
+@media (max-width: 360px) {
+  .site-nav { gap: 9px; }
+  .site-nav a { font-size: 13px; letter-spacing: 0; }
+  .logo img { height: 18px; }
 }

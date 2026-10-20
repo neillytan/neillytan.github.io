@@ -2,5 +2,7 @@
   url: /
 - title: publications
   url: /publications/
+- title: teaching
+  url: /teaching/
 - title: cv
   url: cv   # resolved to site.cv_file in the header
