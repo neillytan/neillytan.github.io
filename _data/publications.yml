@@ -12,49 +12,49 @@
   items:
     - id: P1
       title: Everyday Layers of Resistance to Smart Camera Surveillance.
-      authors: <strong>Tan, N.H.</strong>, Desjardins, A., Munson, S.A.
+      authors: <strong>Neilly H. Tan</strong>, Audrey Desjardins, & Sean A. Munson.
       year: 2027
       status: in preparation
     - id: P2
       doi: 10.1145/3831972
       pdf: /assets/papers/tan-ubicomp26-home-iot-care.pdf
       title: Negotiating Autonomy, Control, and Privacy in Always-On Home IoT Technology-Mediated Care Relationships with Older Adults.
-      authors: Wang, S., <strong>Tan, N.H.</strong>, & Munson, S.A.
+      authors: Shengzhi Wang, <strong>Neilly H. Tan</strong>, & Sean A. Munson.
       venue: Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (Ubicomp ’26).
       year: 2026
     - id: P3
       title: "Slanted Speculations: Material Encounters with Algorithmic Bias."
       doi: 10.1145/3532106.3533449
       pdf: /assets/papers/tan-dis22-slanted-speculations.pdf
-      authors: Benabdallah, G., Alexander, A.*, Ghosh, S.*, Glogovac-Smith, C.*, Jacoby, L.*, Lustig, C.*, Nguyen, A.*, Parkhurst, A.*, Reyes, K.*, <strong>Tan, N.H.*</strong>, & Wolcher, E.*
+      authors: Gabrielle Benabdallah, Ashten Alexander*, Sourojit Ghosh*, Chariell Glogovac-Smith*, Lacey Jacoby*, Caitlin Lustig*, Anh Nguyen*, Anna Parkhurst*, Kathryn Reyes*, <strong>Neilly H. Tan*</strong>, Edward Wolcher*, Afroditi Psarra, & Daniela Rosner.
       venue: Proc. ACM Conf. on Designing Interactive Systems (DIS ’22).
       year: 2022
     - id: P4
       title: "Monitoring Pets, Deterring Intruders, and Casually Spying on Neighbors: Everyday Uses of Smart Home Cameras."
       doi: 10.1145/3491102.3517617
       pdf: /assets/papers/tan-chi22-smart-home-camera-uses.pdf
-      authors: <strong>Tan, N.H.</strong>, Wong, R.Y., Desjardins, A., Munson, S.A., & Pierce, J.
+      authors: <strong>Neilly H. Tan</strong>, Richmond Y. Wong, Audrey Desjardins, Sean A. Munson, & James Pierce.
       venue: Proc. ACM Conf. on Human Factors in Computing Systems (CHI ’22).
       year: 2022
     - id: P5
       title: Critical-Playful Speculations with Cameras in the Home.
       doi: 10.1145/3491102.3502109
       pdf: /assets/papers/tan-chi22-critical-playful-speculations.pdf
-      authors: <strong>Tan, N.H.</strong>, Kinnee, B., Langseth, D., Munson, S., & Desjardins, A.
+      authors: <strong>Neilly H. Tan</strong>, Brian Kinnee, Dana Langseth, Sean A. Munson, & Audrey Desjardins.
       venue: Proc. ACM Conf. on Human Factors in Computing Systems (CHI ’22).
       year: 2022
     - id: P6
       title: Case Studies on the Motivation and Performance of Contributors who Verify and Maintain In-Flux Tabular Datasets.
       doi: 10.1145/3479592
       pdf: /assets/papers/tan-cscw21-tabulardatasets.pdf
-      authors: Wallace, S., Papoutsaki, A., <strong>Tan, N.H.</strong>, Guo, H., & Huang, J.
+      authors: Shaun Wallace, Alexandra Papoutsaki, <strong>Neilly H. Tan</strong>, Hua Guo, & Jeff Huang.
       venue: Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 448 (Oct. ’21).
       year: 2021
     - id: P7
       title: "Rewind: Automatically Reconstructing Everyday Memories with First-Person Perspectives."
       doi: 10.1145/3287069
       pdf: /assets/papers/tan-imwut18-rewind.pdf
-      authors: <strong>Tan, N.A.H.*</strong>, Sha, H.*, Celen, E.*, Tran, P., Wang, K., Cheung, G., Hinch, P., & Huang, J.
+      authors: <strong>Neille-Ann H. Tan*</strong>, Han Sha*, Eda Celen*, Phucanh Tran, Kelly Wang, Gifford Cheung, Philip Hinch, & Jeff Huang.
       venue: Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 4, Article 191 (Dec. ’18).
       year: 2018
 
@@ -63,12 +63,12 @@
     - id: W1
       url: https://4sonline.org/news_manager.php?page=27336
       title: "Material Experiments and Playful Disruptions: Interrogating Boundaries, Meanings, and Aesthetics of the Smart Camera."
-      authors: Wong, R., <strong>Tan, N.H.</strong>, Gray, N., Valdez, J., & Pierce, J.
+      authors: Richmond Y. Wong, <strong>Neilly H. Tan</strong>, Nathaniel Gray, Jason Valdez, & James Pierce.
       venue: 4S, Making and Doing Session.
     - id: W2
       doi: 10.1145/3462204.3481730
       title: "Subtle CSCW Traits: Tensions Around Identity Formation and Online Activism in the Asian Diaspora."
-      authors: Liang, C.A., Tseng, E., Pendse, S., Lee, C., Allison, K.R., <strong>Tan, N.H.</strong>, Wang, R., To, A., & Zhang, A.
+      authors: Calvin Liang, Emily Tseng, Sachin Pendse, Crystal Lee, Kimberley Allison, <strong>Neilly H. Tan</strong>, Ruotong Wang, Alexandra To, & Amy Zhang.
       venue: CSCW ’21 Companion.
       year: 2021
 
