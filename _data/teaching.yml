@@ -31,7 +31,7 @@
 
 - section: Courses
   items:
-    - subhead: at the University of Washington
+    - subhead: "At the University of Washington:"
     - term: fall 2026
       role: TA
       title: Foundations of HCDE
@@ -57,7 +57,7 @@
       title: Interaction Design for Everyday Reflection
       code: HCDE 418
       meta: w/ Prof. Jennifer Turns
-    - subhead: at Brown University
+    - subhead: "At Brown University:"
     - term: fall 2018
       role: TA
       title: Statistical Methods
