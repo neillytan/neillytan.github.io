@@ -49,8 +49,8 @@ p { margin: 0 0 1rem; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 48px;
-  padding: 0 max(var(--gutter), calc((100% - 920px) / 2));
+  height: 56px;
+  padding: 0 max(var(--gutter), calc((100% - 800px) / 2));
   background: var(--bg);
   border: 1px solid var(--line);
 }
