@@ -27,9 +27,9 @@ page_class: pubs
       {%- if p.doi %}{% assign online = 'https://doi.org/' | append: p.doi %}{% else %}{% assign online = p.url %}{% endif %}
       {%- if p.pdf or online %}
       <p class="pub-links">
-        {%- if p.pdf %}<a href="{{ p.pdf | relative_url }}">PDF</a>{% endif %}
+        {%- if p.pdf %}<span class="link-icon" aria-hidden="true">↓</span><a href="{{ p.pdf | relative_url }}">PDF</a>{% endif %}
         {%- if p.pdf and online %} <span aria-hidden="true">·</span> {% endif %}
-        {%- if online %}<a href="{{ online }}">{% if p.doi %}DOI{% else %}LINK{% endif %}</a>{% endif %}
+        {%- if online %}<span class="link-icon" aria-hidden="true">↗</span><a href="{{ online }}">{% if p.doi %}DOI{% else %}LINK{% endif %}</a>{% endif %}
       </p>
       {%- endif %}
     </div>
