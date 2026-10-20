@@ -129,7 +129,7 @@ p { margin: 0 0 1rem; }
 
 .pubs:not(.teach) .pub-id { color: #999; }
 .pubs:not(.teach) .pub-title { margin-bottom: 0 !important; }
-.pubs:not(.teach) .pub-meta { margin-top: -1px; font-size: 14px; }
+.pubs:not(.teach) .pub-meta { margin-top: 5px; font-size: 14px; line-height: 1.4; }
 .pubs:not(.teach) .pub-list { grid-template-columns: 48px minmax(0, 1fr); }
 
 /* teaching */
