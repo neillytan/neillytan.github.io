@@ -14,7 +14,7 @@ page_class: pubs teach
   <div class="pub-list">
     {%- for t in group.items %}
     <span class="pub-id">{{ t.term }}{% if t.code %}<span class="teach-code">{{ t.code }}</span>{% endif %}</span>
-    <div class="pub">
+    <div class="pub{% unless t.meta %} pub-single{% endunless %}">
       <p class="pub-title">
         {%- if t.role and t.title %}<span class="teach-role">{{ t.role }}:</span> {{ t.title }}
         {%- else %}{{ t.title | default: t.role }}{% endif -%}
