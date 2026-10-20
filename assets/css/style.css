@@ -94,6 +94,7 @@ p { margin: 0 0 1rem; }
 .job-note { margin: 2px 0 20px; padding: 12px 14px; background: var(--accent); color: #fff; font-family: var(--heading-font); font-size: 13px; line-height: 1.45; }
 .job-note a { color: #fff; text-decoration-color: #fff; }
 .job-note a:hover { background: var(--highlight); color: var(--text); text-decoration-color: var(--text); }
+.job-icon { margin-right: 0.6em; }
 .job-label { margin-right: 8px; color: var(--highlight); }
 
 /* contact */
