@@ -14,7 +14,7 @@ page_class: pubs teach
   <div class="pub-list">
     {%- for t in group.items %}
     {%- if t.subhead %}
-    <h3 class="teach-subhead">{{ t.subhead | downcase }}</h3>
+    <h3 class="teach-subhead">{{ t.subhead }}</h3>
     {%- continue %}
     {%- endif %}
     <span class="pub-id">{{ t.term }}{% if t.code %}<span class="teach-code">{{ t.code }}</span>{% endif %}</span>
