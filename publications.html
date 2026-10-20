@@ -16,8 +16,7 @@ page_class: pubs
     <span class="pub-id">{{ p.id }}</span>
     <div class="pub">
       <p class="pub-title">
-        {%- if p.doi %}{% assign link = 'https://doi.org/' | append: p.doi %}{% elsif p.url %}{% assign link = p.url %}{% elsif p.pdf %}{% assign link = p.pdf | relative_url %}{% else %}{% assign link = nil %}{% endif %}
-        {%- if link %}<a href="{{ link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+        {{- p.title }}
         {%- if p.status %} <mark class="pub-status">{{ p.status }}</mark>{% endif %}
       </p>
       <p class="pub-meta">
@@ -28,9 +27,9 @@ page_class: pubs
       {%- if p.doi %}{% assign online = 'https://doi.org/' | append: p.doi %}{% else %}{% assign online = p.url %}{% endif %}
       {%- if p.pdf or online %}
       <p class="pub-links">
-        {%- if p.pdf %}<a href="{{ p.pdf | relative_url }}">pdf</a>{% endif %}
+        {%- if p.pdf %}<a href="{{ p.pdf | relative_url }}">PDF</a>{% endif %}
         {%- if p.pdf and online %} <span aria-hidden="true">·</span> {% endif %}
-        {%- if online %}<a href="{{ online }}">online</a>{% endif %}
+        {%- if online %}<a href="{{ online }}">{% if p.doi %}DOI{% else %}LINK{% endif %}</a>{% endif %}
       </p>
       {%- endif %}
     </div>

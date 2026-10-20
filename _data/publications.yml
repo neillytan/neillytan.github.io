@@ -2,9 +2,9 @@
 # Each section renders as a group on /publications/.
 #   id      — the CV label (P1, W1, ...), shown in the left column. For talks, use the year.
 #   authors — HTML, so your name can be bolded with <strong>. `*` = equal contribution.
-#   doi     — optional; e.g. 10.1145/3479592. The title links here, and an "online" link is added.
+#   doi     — optional; e.g. 10.1145/3479592. Shown as a "DOI" link.
 #   pdf     — optional; put the file in assets/papers/ and point to it, e.g. /assets/papers/tan-chi22-x.pdf
-#   url     — optional; a link to use when there is no doi (title and "online" link)
+#   url     — optional; a link to use when there is no doi (shown as "LINK")
 #   status  — optional; shown as a small tag, e.g. "in preparation"
 
 - section: Conference & Journal Publications
