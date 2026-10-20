@@ -94,6 +94,7 @@ p { margin: 0 0 1rem; }
 .contact .icon { display: inline-block; width: 2em; transform: scale(1.8); transform-origin: left center; position: relative; top: -1px; }
 
 .contact .icon-star { top: -2px; }
+.contact .icon-mail { top: -2px; }
 .contact .icon-inline { display: inline-block; margin: 0 1.05em 0 0.4em; transform: scale(1.35); position: relative; top: -1px; }
 
 /* footer */

@@ -15,8 +15,8 @@ page_class: home
     <p>Outside of work, I powerlift, doomscroll Facebook Marketplace for new plants, and play with my girlfriend's cat, DD.</p>
 
     <p class="contact">
-      <span class="icon">✉</span>{{ site.email_display }}<br>
-      <span class="icon icon-star">★</span><a href="{{ site.cv_file | relative_url }}">Curriculum Vitae</a> <em>(last updated: {{ site.cv_updated }})</em>
+      <span class="icon icon-mail">✉</span>{{ site.email_display }}<br>
+      <span class="icon icon-star">★</span><a href="{{ site.cv_file | relative_url }}">Curriculum Vitae</a> <em>(updated {{ site.cv_updated }})</em>
       {%- if site.scholar_url and site.scholar_url != "" %}<br>
       <span class="icon">✎</span><a href="{{ site.scholar_url }}">Google Scholar</a>
       {%- if site.linkedin_url and site.linkedin_url != "" %} · <span class="icon-inline">⧉</span><a href="{{ site.linkedin_url }}">LinkedIn</a>{% endif %}{% endif %}
