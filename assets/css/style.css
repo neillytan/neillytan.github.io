@@ -132,7 +132,7 @@ p { margin: 0 0 1rem; }
 .pub-title { font-weight: 560; line-height: 1.4; margin-bottom: 4px !important; }
 .pub-meta { font-size: 15px; line-height: 1.55; color: #444; }
 .pub-links { margin-top: 4px !important; font-family: var(--heading-font); font-size: 13px; color: #888; }
-.pub-links a { color: var(--accent); }
+.pub-links a { color: var(--accent); text-decoration: none; border-bottom: 1.5px solid var(--accent); padding-bottom: 1px; }
 .link-icon { color: var(--accent); margin-right: 4px; font-size: 1.25em; line-height: 1; position: relative; top: 1px; }
 .pub-meta strong { font-weight: 600; color: var(--text); }
 .pub-status { font-family: var(--heading-font); font-size: 12px; font-weight: 400; background: var(--highlight); color: var(--text); padding: 1px 5px; margin-left: 4px; white-space: nowrap; }
