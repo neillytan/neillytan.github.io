@@ -91,7 +91,7 @@ p { margin: 0 0 1rem; }
 
 .kaomoji { font-size: 0.9em; letter-spacing: 0.02em; margin-left: 0.25em; color: #333; white-space: nowrap; position: relative; top: -1px; }
 
-.job-note { margin: 2px 0 20px; padding: 12px 14px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='none' stroke='%235e6ef7' stroke-width='3' stroke-dasharray='10 6'/%3E%3C/svg%3E"); font-family: var(--heading-font); font-size: 13px; line-height: 1.7; }
+.job-note { margin: 2px 0 20px; padding: 12px 14px; border: 1px solid var(--accent); font-family: var(--heading-font); font-size: 13px; line-height: 1.7; }
 .job-label { margin-right: 8px; color: var(--accent); }
 
 /* contact */
