@@ -1,5 +1,5 @@
 :root {
-  --accent: #5e6ef7;
+  --accent: #6666ff;
   --text: #2b2724;
   --bg: #efe9dc;
   --highlight: #effa8f;
@@ -54,6 +54,7 @@ p { margin: 0 0 1rem; }
   background: var(--bg);
   border: 1px solid var(--line);
 }
+.logo { display: flex; align-items: center; gap: 5px; }
 .logo img { display: block; height: 27px; width: auto; }
 .site-nav { display: flex; gap: 18px; }
 .site-nav a {
