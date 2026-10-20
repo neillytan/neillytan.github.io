@@ -13,7 +13,7 @@ page_class: pubs teach
   {%- if group.note %}<p class="pub-note">{{ group.note }}</p>{% endif %}
   <div class="pub-list">
     {%- for t in group.items %}
-    <span class="pub-id">{{ t.term }}</span>
+    <span class="pub-id">{{ t.term }}{% if t.code %}<span class="teach-code">{{ t.code }}</span>{% endif %}</span>
     <div class="pub">
       <p class="pub-title">
         {%- if t.role and t.title %}<span class="teach-role">{{ t.role }}:</span> {{ t.title }}

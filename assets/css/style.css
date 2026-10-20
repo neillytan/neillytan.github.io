@@ -126,8 +126,9 @@ p { margin: 0 0 1rem; }
 .pub-status { font-family: var(--heading-font); font-size: 12px; font-weight: 400; background: var(--highlight); color: var(--text); padding: 1px 5px; margin-left: 4px; white-space: nowrap; }
 
 /* teaching */
-.teach .pub-list { grid-template-columns: 136px minmax(0, 1fr); }
-.teach .pub-id { font-size: 12px; padding-top: 4px; }
+.teach .pub-list { grid-template-columns: 160px minmax(0, 1fr); }
+.teach .pub-id { font-size: 12px; padding-top: 4px; line-height: 1.6; }
+.teach-code { display: block; color: #999; }
 .teach .pub-meta { font-size: 13px; color: #999; }
 .teach-role { font-weight: 420; color: #555; }
 
@@ -143,6 +144,7 @@ p { margin: 0 0 1rem; }
   .pub-list { grid-template-columns: 44px minmax(0, 1fr); gap: 20px 12px; }
   .news-list { grid-template-columns: 1fr; gap: 2px; }
   .teach .pub-list { grid-template-columns: 1fr; gap: 2px; }
+  .teach-code { display: inline; margin-left: 10px; }
   .teach .pub { margin-bottom: 16px; }
   .news-list > span:not(.news-date) { margin-bottom: 14px; }
   .site-nav { gap: 12px; }
