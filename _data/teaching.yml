@@ -1,118 +1,64 @@
 # Mirrors the Teaching and Mentoring sections of the CV.
 # Each section renders as a group on /teaching/.
 #   term  — shown in the left column (e.g. "fall 2026")
-#   title — course or group name
-#   role  — your role, shown before the title
+#   title — course or group name (optional; if left out, the role is shown on its own)
+#   role  — role, shown before title
 #   meta  — course code, instructor, collaborators, etc.
 
 - section: Directed Research Groups
   note: Small, project-based courses (2–3 credits) at the University of Washington across HCDE and the School of Art + Art History + Design.
   items:
-    - term: win–spr 2025
+    - term: winter–spring 2025
       role: Instructor
       title: Careful Data Infrastructures in Home Childcare Work
-      meta: HCDE 496/596 · 3 students · Organized with Daniela Rosner and Sean Munson.
+      meta: HCDE 496/596 · 3 students · Organized w/ Daniela Rosner & Sean Munson.
     - term: spring 2022
       role: Co-instructor with Shengzhi Wang
       title: Older Adults and IoT
-      meta: HCDE 496/596 · 4 students · Organized with Sean Munson.
+      meta: HCDE 496/596 · 4 students · Organized w/ Sean Munson.
     - term: winter 2021
       role: Co-instructor with Richmond Wong
       title: Non-Primary IoT Users
-      meta: DESIGN 596 · 2 students · Organized with James Pierce.
+      meta: DESIGN 596 · 2 students · Organized w/ James Pierce.
     - term: fall 2020
       role: Instructor
       title: Discursive Design Inquiry with Home Cameras
-      meta: HCDE 496/596 · 4 students · Organized with Audrey Desjardins and Sean Munson.
+      meta: HCDE 496/596 · 4 students · Organized w/ Audrey Desjardins and Sean Munson.
 
 - section: Courses
   items:
     - term: fall 2026
       role: Teaching Assistant
       title: Foundations of HCDE
-      meta: HCDE 302 · Prof. Arpita B. · University of Washington
+      meta: HCDE 302 · Arpita B. · University of Washington
     - term: spring 2026
       role: Teaching Assistant
       title: Interaction Design & Prototyping
-      meta: HCDE 536 · Prof. Paula Te · University of Washington
+      meta: HCDE 536 · Paula Te · University of Washington
     - term: summer 2025
       role: Teaching Assistant
       title: Research Methods
-      meta: INFO 300 · Prof. Spencer Williams · University of Washington
+      meta: INFO 300 · Spencer Williams · University of Washington
     - term: spring 2025
       role: Teaching Assistant
       title: Slow Interaction Design
-      meta: HCDE 418 · Prof. Tyler Fox · University of Washington
+      meta: HCDE 418 · Tyler Fox · University of Washington
     - term: spring 2021
       role: Teaching Assistant
       title: Interaction Design for Everyday Reflection
-      meta: HCDE 418 · Prof. Jennifer Turns · University of Washington
+      meta: HCDE 418 · Jennifer Turns · University of Washington
     - term: fall 2018
       role: Teaching Assistant
       title: Statistical Methods
-      meta: CLPS 0900 · Prof. Kathryn Spoehr · Brown University
+      meta: CLPS 0900 · Kathryn Spoehr · Brown University
     - term: fall 2017
       role: Head Teaching Assistant
       title: User Interfaces & User Experiences
-      meta: CSCI 1300 · Prof. Jeff Huang · Brown University
+      meta: CSCI 1300 · Jeff Huang · Brown University
     - term: fall 2016
       role: Teaching Assistant
       title: User Interfaces & User Experiences
-      meta: CSCI 1300 · Prof. Jeff Huang · Brown University
+      meta: CSCI 1300 · Jeff Huang · Brown University
     - term: 2016–18
-      role: Instructor
-      title: Design Software
+      role: Design Software Instructor
       meta: Brown University Computer Education
-
-- section: Guest Lectures & Critiques
-  items:
-    - term: fall 2025
-      role: Panelist on Qualitative Research
-      title: Design Field Studies
-      meta: DESIGN 481 · University of Washington
-    - term: fall 2025
-      role: Guest Critique
-      title: Design Field Studies
-      meta: DESIGN 481 · University of Washington
-    - term: spring 2023
-      role: Guest Critique
-      title: Design Field Studies
-      meta: DESIGN 481 · University of Washington
-    - term: winter 2022
-      role: Panelist on Interview Methods
-      title: Qualitative Research Methods
-      meta: HCDE 519 · University of Washington
-    - term: spring 2021
-      role: Presentation on Sousveillance Theory Lineage
-      title: Theoretical Foundations
-      meta: HCDE 542 · University of Washington
-
-- section: Mentoring
-  items:
-    - term: 2024–25
-      title: Priya Dhawka
-      meta: HCDE Ph.D. Student
-    - term: 2024–25
-      title: Cindy Te
-      meta: Interaction Design Undergraduate
-    - term: 2022–23
-      title: Samuel So
-      meta: HCDE Ph.D. Student
-    - term: "2022"
-      title: Nathaniel Gray
-      meta: M.S. Human-Computer Interaction + Design
-    - term: "2022"
-      title: Jason Valdez
-      meta: M.S. Human-Computer Interaction + Design
-    - term: 2021–22
-      title: Shengzhi Wang
-      meta: HCDE Ph.D. Student
-    - term: 2021–22
-      title: Dana Langseth
-      meta: HCDE M.S. Student
-    - term: "2021"
-      title: Yuna Shin
-      meta: Interaction Design Undergraduate
-    - term: "2021"
-      title: Joyce Lim
-      meta: Interaction Design Undergraduate

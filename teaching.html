@@ -5,7 +5,7 @@ permalink: /teaching/
 page_class: pubs teach
 ---
 <h1>teaching</h1>
-<p class="name-note">Courses, directed research groups, and mentoring at the University of Washington and Brown University. Full details in my <a href="{{ site.cv_file | relative_url }}">CV</a>.</p>
+<p class="name-note">Courses and directed research groups at the University of Washington and Brown University. Full details in my <a href="{{ site.cv_file | relative_url }}">CV</a>.</p>
 
 {%- for group in site.data.teaching %}
 <section class="pub-section">
@@ -15,7 +15,10 @@ page_class: pubs teach
     {%- for t in group.items %}
     <span class="pub-id">{{ t.term }}</span>
     <div class="pub">
-      <p class="pub-title">{% if t.role %}<span class="teach-role">{{ t.role }}:</span> {% endif %}{{ t.title }}</p>
+      <p class="pub-title">
+        {%- if t.role and t.title %}<span class="teach-role">{{ t.role }}:</span> {{ t.title }}
+        {%- else %}{{ t.title | default: t.role }}{% endif -%}
+      </p>
       {%- if t.meta %}<p class="pub-meta">{{ t.meta }}</p>{% endif %}
     </div>
     {%- endfor %}
