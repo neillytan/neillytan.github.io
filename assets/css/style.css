@@ -95,7 +95,7 @@ p { margin: 0 0 1rem; }
 
 .kaomoji { font-size: 0.9em; letter-spacing: 0.02em; margin-left: 0.25em; color: #333; white-space: nowrap; position: relative; top: -1px; }
 
-.job-note { margin: 0 0 20px; padding: 11px 14px; border: 1.5px solid #9a958c; color: var(--text); font-family: var(--heading-font); font-size: 13px; line-height: 1.8; text-wrap: balance; }
+.job-note { margin: 0 0 20px; padding: 11px 14px; border: 1.5px solid #9a958c; color: var(--text); font-family: var(--heading-font); font-size: 13.5px; line-height: 1.8; text-wrap: balance; }
 .job-note a { color: var(--text); text-decoration-color: var(--accent); }
 .job-note a:hover { background: var(--highlight); color: var(--text); text-decoration-color: var(--text); }
 .job-label { margin-right: 8px; padding: 1px 5px; color: var(--text); background: var(--highlight); }
