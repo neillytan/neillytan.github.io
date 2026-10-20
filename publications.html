@@ -29,7 +29,7 @@ page_class: pubs
       <p class="pub-links">
         {%- if p.pdf %}<a href="{{ p.pdf | relative_url }}"><span class="link-icon" aria-hidden="true">↓</span>PDF</a>{% endif %}
         {%- if p.pdf and online %} <span aria-hidden="true">·</span> {% endif %}
-        {%- if online %}<a href="{{ online }}"><span class="link-icon" aria-hidden="true">↗</span>{% if p.doi %}DOI{% else %}LINK{% endif %}</a>{% endif %}
+        {%- if online %}<a href="{{ online }}"><span class="link-icon link-icon-ext" aria-hidden="true">↗</span>{% if p.doi %}DOI{% else %}LINK{% endif %}</a>{% endif %}
       </p>
       {%- endif %}
     </div>
