@@ -101,7 +101,7 @@ p { margin: 0 0 1rem; }
 .job-label { margin-right: 8px; color: var(--highlight); }
 
 /* contact */
-.contact { margin-top: 1rem; font-family: var(--heading-font); font-size: 15px; line-height: 1.9; }
+.contact { margin-top: 1rem; font-family: var(--heading-font); font-size: 15px; line-height: 2.15; }
 .contact .icon { display: inline-block; width: 2em; transform: scale(1.8); transform-origin: left center; position: relative; top: 0; }
 
 .contact .icon-doc { transform: scale(1.4); top: 0; }
