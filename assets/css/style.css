@@ -133,7 +133,7 @@ p { margin: 0 0 1rem; }
 .teach-code { display: block; color: #999; }
 .teach .pub-single { align-self: center; }
 .teach .pub-single .pub-title { margin-bottom: 0 !important; }
-.teach .pub-meta { font-size: 13px; color: #999; }
+.teach .pub-meta { font-size: 13px; color: #999; margin-top: -6.6px !important; }
 .teach-role { font-weight: 420; color: #555; }
 
 /* ---------- small screens ---------- */
@@ -151,6 +151,7 @@ p { margin: 0 0 1rem; }
   .teach-code { display: inline; margin-left: 10px; }
   .teach .pub-single { align-self: start; }
   .teach .pub { margin-bottom: 16px; }
+  .teach .pub-meta { margin-top: 0 !important; }
   .news-list > span:not(.news-date) { margin-bottom: 14px; }
   .site-nav { gap: 12px; }
   .site-nav a { font-size: 14px; letter-spacing: 0.02em; }
