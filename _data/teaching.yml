@@ -3,6 +3,7 @@
 #   term  — shown in the left column (e.g. "fall 2026")
 #   title — course or group name (optional; if left out, the role is shown on its own)
 #   role  — role, shown before title
+#   subhead — a small label that starts a group inside a section (e.g. a university)
 #   code  — course number, shown in gray under the term
 #   meta  — optional small gray line under the title (e.g. instructor · university)
 
@@ -30,46 +31,48 @@
 
 - section: Courses
   items:
+    - subhead: University of Washington
     - term: fall 2026
       role: TA
       title: Foundations of HCDE
       code: HCDE 302
-      meta: w/ Prof. Arpita B. · University of Washington
+      meta: w/ Prof. Arpita B.
     - term: spring 2026
       role: TA
       title: Interaction Design & Prototyping
       code: HCDE 536
-      meta: w/ Prof. Paula Te · University of Washington
+      meta: w/ Prof. Paula Te
     - term: summer 2025
       role: TA
       title: Research Methods
       code: INFO 300
-      meta: w/ Prof. Spencer Williams · University of Washington
+      meta: w/ Prof. Spencer Williams
     - term: spring 2025
       role: TA
       title: Slow Interaction Design
       code: HCDE 418
-      meta: w/ Prof. Tyler Fox · University of Washington
+      meta: w/ Prof. Tyler Fox
     - term: spring 2021
       role: TA
       title: Interaction Design for Everyday Reflection
       code: HCDE 418
-      meta: w/ Prof. Jennifer Turns · University of Washington
+      meta: w/ Prof. Jennifer Turns
+    - subhead: Brown University
     - term: fall 2018
       role: TA
       title: Statistical Methods
       code: CLPS 0900
-      meta: w/ Prof. Kathryn Spoehr · Brown University
+      meta: w/ Prof. Kathryn Spoehr
     - term: fall 2017
       role: Head TA
       title: User Interfaces & User Experiences
       code: CSCI 1300
-      meta: w/ Prof. Jeff Huang · Brown University
+      meta: w/ Prof. Jeff Huang
     - term: fall 2016
       role: TA
       title: User Interfaces & User Experiences
       code: CSCI 1300
-      meta: w/ Prof. Jeff Huang · Brown University
+      meta: w/ Prof. Jeff Huang
     - term: 2016–18
       role: Design Software Instructor
-      meta: Brown University Computer Education
+      meta: Computer Education

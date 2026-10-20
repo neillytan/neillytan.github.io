@@ -13,6 +13,10 @@ page_class: pubs teach
   {%- if group.note %}<p class="pub-note">{{ group.note }}</p>{% endif %}
   <div class="pub-list">
     {%- for t in group.items %}
+    {%- if t.subhead %}
+    <h3 class="teach-subhead">{{ t.subhead | downcase }}</h3>
+    {%- continue %}
+    {%- endif %}
     <span class="pub-id">{{ t.term }}{% if t.code %}<span class="teach-code">{{ t.code }}</span>{% endif %}</span>
     <div class="pub{% unless t.meta %} pub-single{% endunless %}">
       <p class="pub-title">
