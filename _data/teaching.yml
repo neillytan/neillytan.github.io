@@ -3,7 +3,7 @@
 #   term  — shown in the left column (e.g. "fall 2026")
 #   title — course or group name (optional; if left out, the role is shown on its own)
 #   role  — role, shown before title
-#   meta  — course code, instructor, collaborators, etc.
+#   meta  — small gray line under the title (e.g. the course number)
 
 - section: Directed Research Groups
   note: Small, project-based courses (2–3 credits) at the University of Washington across HCDE and the School of Art + Art History + Design.
@@ -11,19 +11,19 @@
     - term: winter–spring 2025
       role: Instructor
       title: Careful Data Infrastructures in Home Childcare Work
-      meta: HCDE 496/596 · 3 students · Organized w/ Daniela Rosner & Sean Munson.
+      meta: HCDE 496/596
     - term: spring 2022
       role: Co-instructor with Shengzhi Wang
       title: Older Adults and IoT
-      meta: HCDE 496/596 · 4 students · Organized w/ Sean Munson.
+      meta: HCDE 496/596
     - term: winter 2021
       role: Co-instructor with Richmond Wong
       title: Non-Primary IoT Users
-      meta: DESIGN 596 · 2 students · Organized w/ James Pierce.
+      meta: DESIGN 596
     - term: fall 2020
       role: Instructor
       title: Discursive Design Inquiry with Home Cameras
-      meta: HCDE 496/596 · 4 students · Organized w/ Audrey Desjardins and Sean Munson.
+      meta: HCDE 496/596
 
 - section: Courses
   items:
