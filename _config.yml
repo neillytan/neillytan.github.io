@@ -11,6 +11,7 @@ email_display: nhtan @ uw [dot] edu
 
 # Paste your Google Scholar profile link here to show it on the homepage (restart jekyll serve after)
 scholar_url: "https://scholar.google.com/citations?user=2R1It20AAAAJ"
+linkedin_url: "https://www.linkedin.com/in/neilly"
 
 markdown: kramdown
 plugins:
