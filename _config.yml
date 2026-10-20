@@ -1,0 +1,23 @@
+title: Neilly H. Tan
+description: Sociotechnical scholar and design researcher at the University of Washington.
+url: "https://www.neillytan.com"
+baseurl: ""
+
+# Single source of truth for current CV (used in the nav and on the homepage)
+cv_file: /assets/files/NeillyTan_CurriculumVitae_2026.pdf
+cv_updated: 10/2026
+
+email_display: nhtan @ uw [dot] edu
+
+# Paste your Google Scholar profile link here to show it on the homepage (restart jekyll serve after)
+scholar_url: "https://scholar.google.com/citations?user=2R1It20AAAAJ"
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

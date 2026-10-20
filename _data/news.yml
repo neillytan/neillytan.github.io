@@ -1,0 +1,37 @@
+# Newest first. Only 5 items show on the homepage (change `limit` in index.html).
+# Add `pinned: true` to keep an item at the top (highlighted); the rest stay in order.
+# Indent `text` lines with 4 spaces. Use plain paths for links, e.g. /assets/papers/x.pdf.
+- date: 2026–27
+  pinned: true
+  text: >-
+    Received the Martha H. Duggan Fellowship in Caring Labor from the UW Harry Bridges Center for Labor Studies for 2026–27. Grateful for their support of research centered on care workers’ knowledge and collective futures.
+- date: Oct 2026
+  text: >-
+    Presented "Caring Labor Futures in the Home" on the Reclaiming the Futures of Work panel at 4S 2026.
+- date: Sept 2026
+  text: >-
+    Our paper on autonomy, control, and privacy in always-on home IoT care relationships with older adults, led by Shengzhi Wang, was published in <em>IMWUT</em>! <a href="/assets/papers/tan-ubicomp26-home-iot-care.pdf">pdf</a>
+- date: July 2026
+  text: >-
+    Interviewed for <em>Vox</em> on smart home cameras: <a href="https://www.vox.com/advice/493994/ring-simplisafe-nest-doorbell-cameras-paranoia">"Your Ring camera isn't stopping crime. But it might be making you paranoid."</a>
+- date: June 2026
+  text: >-
+    Participated in the <em>Workers Confront Racial Capitalism</em> summer school at the UW Harry Bridges Center for Labor Studies.
+- date: Nov 2024
+  text: >-
+    Passed my dissertation proposal, <em>Data Politics, Data Practices, and Data Imaginaries in the Home: Case Studies around the 'Smart' Home Security Camera</em>, and am now ABD.
+- date: June 2023
+  text: >-
+    Attended HCIC 2023 on supporting online trust and safety, privacy, and security.
+- date: Sept 2022
+  text: >-
+    Gave a virtual talk for CHI Manila on critical and design research perspectives on sensing technologies in the home.
+- date: June 2022
+  text: >-
+    Started a UX Research internship at Meta on the Data Infrastructure team (privacy and security products).
+- date: May 2022
+  text: >-
+    Passed my generals exam and became a PhD candidate.
+- date: Feb 2022
+  text: >-
+    Two papers accepted to CHI 2022, <a href="/assets/papers/tan-chi22-smart-home-camera-uses.pdf">on everyday uses of smart home cameras</a> and <a href="/assets/papers/tan-chi22-critical-playful-speculations.pdf">critical-playful speculations with home cameras</a>.

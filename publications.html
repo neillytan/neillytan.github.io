@@ -1,0 +1,40 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+page_class: pubs
+---
+<h1>publications</h1>
+<p class="name-note">My 2018 work is listed under my full name, Neille-Ann H. Tan. I now publish as Neilly, so you may see me cited as Neilly H. Tan or Neilly Herrera Tan. Full list in my <a href="{{ site.cv_file | relative_url }}">CV</a>.</p>
+
+{%- for group in site.data.publications %}
+<section class="pub-section">
+  <h2>{{ group.section | downcase }}</h2>
+  {%- if group.note %}<p class="pub-note">{{ group.note }}</p>{% endif %}
+  <div class="pub-list">
+    {%- for p in group.items %}
+    <span class="pub-id">{{ p.id }}</span>
+    <div class="pub">
+      <p class="pub-title">
+        {%- if p.doi %}{% assign link = 'https://doi.org/' | append: p.doi %}{% elsif p.url %}{% assign link = p.url %}{% elsif p.pdf %}{% assign link = p.pdf | relative_url %}{% else %}{% assign link = nil %}{% endif %}
+        {%- if link %}<a href="{{ link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+        {%- if p.status %} <mark class="pub-status">{{ p.status }}</mark>{% endif %}
+      </p>
+      <p class="pub-meta">
+        {%- if p.authors %}{{ p.authors }}{% if p.year %} {{ p.year }}.{% endif %}{% endif %}
+        {%- if p.venue %} <em>{{ p.venue }}</em>{% endif %}
+        {%- if p.venue_plain %} {{ p.venue_plain }}{% endif %}
+      </p>
+      {%- if p.doi %}{% assign online = 'https://doi.org/' | append: p.doi %}{% else %}{% assign online = p.url %}{% endif %}
+      {%- if p.pdf or online %}
+      <p class="pub-links">
+        {%- if p.pdf %}<a href="{{ p.pdf | relative_url }}">pdf</a>{% endif %}
+        {%- if p.pdf and online %} <span aria-hidden="true">·</span> {% endif %}
+        {%- if online %}<a href="{{ online }}">online</a>{% endif %}
+      </p>
+      {%- endif %}
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+{%- endfor %}

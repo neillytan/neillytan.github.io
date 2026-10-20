@@ -1,0 +1,86 @@
+# Mirrors the publication sections of the CV (see cv_file in _config.yml).
+# Each section renders as a group on /publications/.
+#   id      — the CV label (P1, W1, ...), shown in the left column. For talks, use the year.
+#   authors — HTML, so your name can be bolded with <strong>. `*` = equal contribution.
+#   doi     — optional; e.g. 10.1145/3479592. The title links here, and an "online" link is added.
+#   pdf     — optional; put the file in assets/papers/ and point to it, e.g. /assets/papers/tan-chi22-x.pdf
+#   url     — optional; a link to use when there is no doi (title and "online" link)
+#   status  — optional; shown as a small tag, e.g. "in preparation"
+
+- section: Conference & Journal Publications
+  note: Refereed. * indicates equal contribution.
+  items:
+    - id: P1
+      title: Everyday Layers of Resistance to Smart Camera Surveillance.
+      authors: <strong>Tan, N.H.</strong>, Desjardins, A., Munson, S.A.
+      year: 2027
+      status: in preparation
+    - id: P2
+      doi: 10.1145/3831972
+      pdf: /assets/papers/tan-ubicomp26-home-iot-care.pdf
+      title: Negotiating Autonomy, Control, and Privacy in Always-On Home IoT Technology-Mediated Care Relationships with Older Adults.
+      authors: Wang, S., <strong>Tan, N.H.</strong>, & Munson, S.A.
+      venue: Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (Ubicomp ’26).
+      year: 2026
+    - id: P3
+      title: "Slanted Speculations: Material Encounters with Algorithmic Bias."
+      doi: 10.1145/3532106.3533449
+      pdf: /assets/papers/tan-dis22-slanted-speculations.pdf
+      authors: Benabdallah, G., Alexander, A.*, Ghosh, S.*, Glogovac-Smith, C.*, Jacoby, L.*, Lustig, C.*, Nguyen, A.*, Parkhurst, A.*, Reyes, K.*, <strong>Tan, N.H.*</strong>, & Wolcher, E.*
+      venue: Proc. ACM Conf. on Designing Interactive Systems (DIS ’22).
+      year: 2022
+    - id: P4
+      title: "Monitoring Pets, Deterring Intruders, and Casually Spying on Neighbors: Everyday Uses of Smart Home Cameras."
+      doi: 10.1145/3491102.3517617
+      pdf: /assets/papers/tan-chi22-smart-home-camera-uses.pdf
+      authors: <strong>Tan, N.H.</strong>, Wong, R.Y., Desjardins, A., Munson, S.A., & Pierce, J.
+      venue: Proc. ACM Conf. on Human Factors in Computing Systems (CHI ’22).
+      year: 2022
+    - id: P5
+      title: Critical-Playful Speculations with Cameras in the Home.
+      doi: 10.1145/3491102.3502109
+      pdf: /assets/papers/tan-chi22-critical-playful-speculations.pdf
+      authors: <strong>Tan, N.H.</strong>, Kinnee, B., Langseth, D., Munson, S., & Desjardins, A.
+      venue: Proc. ACM Conf. on Human Factors in Computing Systems (CHI ’22).
+      year: 2022
+    - id: P6
+      title: Case Studies on the Motivation and Performance of Contributors who Verify and Maintain In-Flux Tabular Datasets.
+      doi: 10.1145/3479592
+      pdf: /assets/papers/tan-cscw21-tabulardatasets.pdf
+      authors: Wallace, S., Papoutsaki, A., <strong>Tan, N.H.</strong>, Guo, H., & Huang, J.
+      venue: Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 448 (Oct. ’21).
+      year: 2021
+    - id: P7
+      title: "Rewind: Automatically Reconstructing Everyday Memories with First-Person Perspectives."
+      doi: 10.1145/3287069
+      pdf: /assets/papers/tan-imwut18-rewind.pdf
+      authors: <strong>Tan, N.A.H.*</strong>, Sha, H.*, Celen, E.*, Tran, P., Wang, K., Cheung, G., Hinch, P., & Huang, J.
+      venue: Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 4, Article 191 (Dec. ’18).
+      year: 2018
+
+- section: Workshop Papers & Proposals
+  items:
+    - id: W1
+      url: https://4sonline.org/news_manager.php?page=27336
+      title: "Material Experiments and Playful Disruptions: Interrogating Boundaries, Meanings, and Aesthetics of the Smart Camera."
+      authors: Wong, R., <strong>Tan, N.H.</strong>, Gray, N., Valdez, J., & Pierce, J.
+      venue: 4S, Making and Doing Session.
+    - id: W2
+      doi: 10.1145/3462204.3481730
+      title: "Subtle CSCW Traits: Tensions Around Identity Formation and Online Activism in the Asian Diaspora."
+      authors: Liang, C.A., Tseng, E., Pendse, S., Lee, C., Allison, K.R., <strong>Tan, N.H.</strong>, Wang, R., To, A., & Zhang, A.
+      venue: CSCW ’21 Companion.
+      year: 2021
+
+- section: Invited Talks
+  items:
+    - id: "2026"
+      title: Caring Labor Futures in the Home.
+      venue_plain: Reclaiming the Futures of Work panel, Society for Social Studies of Science (4S). Toronto, Canada.
+    - id: "2025"
+      title: Subjectivities of/within Surveillance.
+      authors: with Claire Weizenegger.
+      venue_plain: The Rise of Research Security panel, 4S. Seattle, WA.
+    - id: "2022"
+      title: "Exploring, Enacting, Questioning: Critical and Design Research Perspectives on Sensing Technologies in the Home."
+      venue_plain: ACM CHI Manila. Virtual.

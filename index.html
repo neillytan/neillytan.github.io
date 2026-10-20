@@ -1,0 +1,40 @@
+---
+layout: default
+title: Neilly H. Tan
+page_class: home
+---
+<section class="intro">
+  <div class="intro-text">
+    <h1>neilly h. tan</h1>
+    <p class="pronouns"><mark>name pronunciation [nee-lee] &nbsp;/&nbsp; she/her</mark></p>
+
+    <p>I am a sociotechnical scholar and design researcher studying the ethical, social, and political implications of personal data and technology systems, drawing on HCI, critical data studies, and STS. My current research centers on power dynamics and possibilities for resistance around everyday surveillance technologies, such as the smart home camera, particularly in domestic care work.</p>
+
+    <p>I am a Ph.D. candidate in <a href="https://www.hcde.washington.edu/">Human-Centered Design and Engineering</a> at the <a href="https://www.washington.edu/">University of Washington</a>, co-advised by Drs. <a href="https://www.smunson.com/">Sean Munson</a> and <a href="http://audreydesjardins.com/">Audrey Desjardins</a>. Currently, I am a 2026–27 Martha H. Duggan Fellow in Caring Labor at the UW Harry Bridges Center for Labor Studies, and my work has been supported by an NSF Graduate Research Fellowship.</p>
+
+    <p class="contact">
+      <span class="icon">✉</span>{{ site.email_display }}<br>
+      <span class="icon">★</span><a href="{{ site.cv_file | relative_url }}">Curriculum Vitae</a> <em>(last updated: {{ site.cv_updated }})</em>
+      {%- if site.scholar_url and site.scholar_url != "" %}<br>
+      <span class="icon">✎</span><a href="{{ site.scholar_url }}">Google Scholar</a>{% endif %}
+    </p>
+  </div>
+  <figure class="photo-wrap">
+    <div class="photo">
+      <img class="portrait" src="{{ '/assets/images/nt-image.jpg' | relative_url }}" alt="Black-and-white portrait of Neilly H. Tan.">
+    </div>
+  </figure>
+</section>
+
+<section class="news">
+  <h2>recent news</h2>
+  <div class="news-list">
+    {%- assign pinned = site.data.news | where: "pinned", true %}
+    {%- assign unpinned = site.data.news | where_exp: "i", "i.pinned != true" %}
+    {%- assign news = pinned | concat: unpinned %}
+    {%- for item in news limit: 5 %}
+      <span class="news-date">{{ item.date }}</span>
+      <span>{{ item.text }}</span>
+    {%- endfor %}
+  </div>
+</section>
