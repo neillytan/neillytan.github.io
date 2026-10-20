@@ -127,6 +127,8 @@ p { margin: 0 0 1rem; }
 .pub-meta strong { font-weight: 600; color: var(--text); }
 .pub-status { font-family: var(--heading-font); font-size: 12px; font-weight: 400; background: var(--highlight); color: var(--text); padding: 1px 5px; margin-left: 4px; white-space: nowrap; }
 
+.pubs:not(.teach) .pub-id { color: #999; }
+
 /* teaching */
 .teach .pub-list { grid-template-columns: 160px minmax(0, 1fr); }
 .teach .pub-id { font-size: 12px; padding-top: 4px; line-height: 1.6; }
