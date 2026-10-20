@@ -44,4 +44,15 @@ page_class: home
       <span>{{ item.text }}</span>
     {%- endfor %}
   </div>
+  {%- if news.size > 5 %}
+  <details class="news-more">
+    <summary><span class="more">see more</span><span class="less">see less</span></summary>
+    <div class="news-list">
+      {%- for item in news offset: 5 %}
+        <span class="news-date">{{ item.date }}</span>
+        <span>{{ item.text }}</span>
+      {%- endfor %}
+    </div>
+  </details>
+  {%- endif %}
 </section>
