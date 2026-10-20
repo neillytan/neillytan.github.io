@@ -7,20 +7,22 @@
 #   meta  — optional small gray line under the title (e.g. instructor · university)
 
 - section: Directed Research Groups
-  note: Small, project-based courses (2–3 credits) at the University of Washington across HCDE and the School of Art + Art History + Design.
+  note: Small, project-based courses (2–3 credits).
   items:
     - term: winter–spring 2025
       role: Instructor
       title: Careful Data Infrastructures in Home Childcare Work
       code: HCDE 496/596
     - term: spring 2022
-      role: Co-instructor with Shengzhi Wang
+      role: Co-instructor
       title: Older Adults and IoT
       code: HCDE 496/596
+      meta: with Shengzhi Wang
     - term: winter 2021
-      role: Co-instructor with Richmond Wong
+      role: Co-instructor
       title: Non-Primary IoT Users
       code: DESIGN 596
+      meta: with Richmond Wong
     - term: fall 2020
       role: Instructor
       title: Discursive Design Inquiry with Home Cameras
@@ -29,45 +31,45 @@
 - section: Courses
   items:
     - term: fall 2026
-      role: Teaching Assistant
+      role: TA
       title: Foundations of HCDE
       code: HCDE 302
-      meta: Arpita B. · University of Washington
+      meta: with Prof. Arpita B. · University of Washington
     - term: spring 2026
-      role: Teaching Assistant
+      role: TA
       title: Interaction Design & Prototyping
       code: HCDE 536
-      meta: Paula Te · University of Washington
+      meta: with Prof. Paula Te · University of Washington
     - term: summer 2025
-      role: Teaching Assistant
+      role: TA
       title: Research Methods
       code: INFO 300
-      meta: Spencer Williams · University of Washington
+      meta: with Prof. Spencer Williams · University of Washington
     - term: spring 2025
-      role: Teaching Assistant
+      role: TA
       title: Slow Interaction Design
       code: HCDE 418
-      meta: Tyler Fox · University of Washington
+      meta: with Prof. Tyler Fox · University of Washington
     - term: spring 2021
-      role: Teaching Assistant
+      role: TA
       title: Interaction Design for Everyday Reflection
       code: HCDE 418
-      meta: Jennifer Turns · University of Washington
+      meta: with Prof. Jennifer Turns · University of Washington
     - term: fall 2018
-      role: Teaching Assistant
+      role: TA
       title: Statistical Methods
       code: CLPS 0900
-      meta: Kathryn Spoehr · Brown University
+      meta: with Prof. Kathryn Spoehr · Brown University
     - term: fall 2017
-      role: Head Teaching Assistant
+      role: Head TA
       title: User Interfaces & User Experiences
       code: CSCI 1300
-      meta: Jeff Huang · Brown University
+      meta: with Prof. Jeff Huang · Brown University
     - term: fall 2016
-      role: Teaching Assistant
+      role: TA
       title: User Interfaces & User Experiences
       code: CSCI 1300
-      meta: Jeff Huang · Brown University
+      meta: with Prof. Jeff Huang · Brown University
     - term: 2016–18
       role: Design Software Instructor
       meta: Brown University Computer Education
