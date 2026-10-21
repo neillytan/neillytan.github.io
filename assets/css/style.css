@@ -53,7 +53,7 @@ p { margin: 0 0 1rem; }
   height: 56px;
   padding: 0 max(var(--gutter), calc((100% - 800px) / 2));
   background: var(--bg);
-  border: 1px solid var(--line);
+  border: 1px solid #9a958c;
 }
 .logo { display: flex; align-items: center; gap: 5px; }
 .logo img { display: block; height: 30px; width: auto; }
@@ -91,12 +91,12 @@ p { margin: 0 0 1rem; }
 .photo-wrap { justify-self: end; width: 140px; margin: 110px 12px 0 0; }
 .photo { position: relative; transform: rotate(3deg); }
 .photo::before { content: ""; position: absolute; inset: 20px -10px -20px 10px; background: var(--accent); border: 1.5px solid #9a958c; transform: rotate(-5deg); }
-.photo::after { content: ""; position: absolute; inset: 0; background: #f6f2ea; }
+.photo::after { content: ""; position: absolute; inset: 0; background: #f3eee3; }
 .photo .portrait { position: relative; z-index: 1; display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 40%; padding: 2px; filter: grayscale(1) contrast(1.15) brightness(1); }
 
 .kaomoji { font-size: 0.9em; letter-spacing: 0.02em; margin-left: 0.25em; color: #333; white-space: nowrap; position: relative; top: -1px; }
 
-.job-note { margin: 0 0 20px; padding: 11px 14px; border: 1.5px solid #9a958c; background: #f6f2ea; color: var(--text); font-family: var(--heading-font); font-size: 13.5px; line-height: 1.8; }
+.job-note { margin: 0 0 20px; padding: 11px 14px; border: 1.5px solid #9a958c; background: #f3eee3; color: var(--text); font-family: var(--heading-font); font-size: 13.5px; line-height: 1.8; }
 .job-note a { color: var(--text); text-decoration-color: var(--accent); white-space: nowrap; }
 .job-note a:hover { background: var(--highlight); color: var(--text); text-decoration-color: var(--text); }
 .job-label { margin-right: 8px; padding: 1px 5px; color: var(--text); background: var(--highlight); }
