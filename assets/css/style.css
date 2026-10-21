@@ -163,9 +163,9 @@ p { margin: 0 0 1rem; }
 .teach .pub-single { align-self: center; }
 .teach .pub-single .pub-title { margin-bottom: 0 !important; }
 .teach .pub-meta { font-size: 13px; color: #999; margin-top: -6.6px !important; }
-.teach-subhead { grid-column: 1 / -1; justify-self: start; margin: 6px 0 -4px -4px; padding: 1px 6px; font-family: var(--heading-font); font-size: 13px; font-weight: 400; letter-spacing: 0.03em; color: var(--text); background: var(--highlight); }
+.teach-subhead { grid-column: 1 / -1; justify-self: start; margin: 6px 0 -4px; padding: 0; font-family: var(--heading-font); font-size: 13px; font-weight: 400; letter-spacing: 0.03em; color: var(--text); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .teach-subhead ~ .teach-subhead { margin-top: 18px; }
-.teach .pub-list > .teach-subhead:first-child { margin-top: -14px; }
+.teach .pub-list > .teach-subhead:first-child { margin-top: -16px; }
 .teach-role { font-weight: 420; color: #555; }
 
 /* ---------- small screens ---------- */
