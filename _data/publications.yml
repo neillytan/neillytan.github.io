@@ -81,6 +81,7 @@
       venue_plain: Workshop proposal.
       year: 2021
     - id: W1
+      url: https://designresearch.works/chi2021-hdi-workshop/assets/papers/CHI2021-HDI%20Workshop-P5-Human-Data%20Interaction%20through%20Design%20with%20Smart%20Home%20Cameras.pdf
       title: Human-Data Interaction through Design with Smart Home Cameras.
       authors: <strong>Neilly Herrera Tan</strong>, Audrey Desjardins, & Sean A. Munson.
       venue: "CHI ’21 Workshop: Human-Data Interaction Through Design: An Explorative Step from Theory to Practice Using Design as a Vehicle."
