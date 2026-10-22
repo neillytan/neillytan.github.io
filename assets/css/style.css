@@ -109,6 +109,9 @@ p { margin: 0 0 1rem; }
 .contact .icon-doc svg { width: 0.95em; height: 1.15em; vertical-align: -0.22em; }
 .contact .icon-mail { top: -1px; }
 .contact .icon-inline { display: inline-block; margin: 0 1.05em 0 0.4em; transform: scale(1.35); position: relative; top: -1px; }
+/* lets "(updated …)" wrap tightly under its line on narrow screens */
+.contact-wrap { display: inline-block; max-width: calc(100% - 2em); line-height: 1.5; vertical-align: top; padding-top: 0.32em; }
+.contact-wrap em { white-space: nowrap; }
 
 /* footer */
 .site-footer { max-width: 800px; margin: 0 auto; padding: 20px 0 48px; border-top: 1px solid var(--line); font-family: var(--heading-font); font-size: 12px; color: #888; }
@@ -129,6 +132,22 @@ p { margin: 0 0 1rem; }
 .news-more[open] summary { order: 2; margin-top: 14px; }
 .news-more[open] { display: flex; flex-direction: column; align-items: flex-start; }
 .news-more .news-list { margin-top: 14px; width: 100%; }
+
+/* short bio (third person, for introductions) */
+.short-bio { margin-top: 10px; }
+.short-bio summary { display: inline-block; cursor: pointer; list-style: none; font-family: var(--heading-font); font-size: 13px; color: var(--accent); }
+.short-bio summary span { border-bottom: 1.5px solid var(--accent); }
+.short-bio summary::after { content: "+"; display: inline-block; width: 1ch; margin-left: 6px; }
+.short-bio[open] summary::after { content: "−"; }
+.short-bio summary::-webkit-details-marker { display: none; }
+.short-bio summary:hover span { background: var(--highlight); }
+.short-bio-body { margin: 12px 0 4px; padding-left: 12px; border-left: 1.5px solid #9a958c; }
+.short-bio-body + .short-bio-body { margin-top: 20px; }
+.short-bio p { margin: 0 0 4px; font-size: 15px; line-height: 1.6; color: #444; }
+.short-bio-label { display: block; margin-bottom: 2px; font-family: var(--heading-font); font-size: 12px; color: #8a857c; }
+.copy-bio { display: block; width: fit-content; line-height: 1.5; margin: 0; padding: 0; border: 0; background: none; cursor: pointer; font-family: var(--heading-font); font-size: 13px; color: var(--accent); border-bottom: 1.5px solid var(--accent); }
+.copy-icon { margin-right: 5px; vertical-align: -1px; }
+.copy-bio:hover { background: var(--highlight); }
 
 /* publications */
 .pubs { max-width: 800px; margin: 0 auto; padding-left: 0; padding-right: 0; }
