@@ -19,7 +19,7 @@ page_class: home
     <p>Outside of work, I powerlift, doomscroll Facebook Marketplace for new plants, and hang out with my girlfriend and our cat, DD <span class="kaomoji" aria-hidden="true">≽^•⩊•^≼</span></p>
 
     <p class="contact">
-      <span class="icon icon-mail">✉</span>{{ site.email_display }}<br>
+      <span class="icon icon-mail">✉</span><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#104;&#116;&#97;&#110;&#64;&#117;&#119;&#46;&#101;&#100;&#117;">{{ site.email_display }}</a><br>
       <span class="icon icon-doc"><svg width="14" height="17" viewBox="0 0 10 12" aria-hidden="true"><path d="M1.5 .75h4.5l2.75 2.75v7.75h-7.25z M6 .75v2.75h2.75 M3 6h4 M3 8.25h4" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg></span><span class="contact-wrap"><a href="{{ site.cv_file | relative_url }}" target="_blank" rel="noopener">Curriculum Vitae</a> <em>(updated {{ site.cv_updated }})</em></span>
       {%- if site.scholar_url and site.scholar_url != "" %}<br>
       <span class="icon">✎</span><a href="{{ site.scholar_url }}">Google Scholar</a>
@@ -27,7 +27,7 @@ page_class: home
     </p>
 
     <details class="short-bio">
-      <summary><span>short bio (for introductions)</span></summary>
+      <summary><svg class="toggle-icon" width="14" height="14" viewBox="0 0 11 11" aria-hidden="true"><rect x="0.55" y="0.55" width="9.9" height="9.9" fill="none" stroke="currentColor" stroke-width="1.1"/><path d="M3 5.5h5" stroke="currentColor" stroke-width="1.1"/><path class="toggle-vbar" d="M5.5 3v5" stroke="currentColor" stroke-width="1.1"/></svg><span class="toggle-text"><span class="toggle-line">Short bio for introductions <span class="when-closed"><em>(click to expand)</em></span><span class="when-open"><em>(click to collapse)</em></span></span></span></summary>
       <div class="short-bio-body">
         <p id="short-bio-text">Neilly H. Tan is a Ph.D. candidate in Human-Centered Design and Engineering at the University of Washington. She is a sociotechnical scholar and design researcher who studies the ethical, social, and political implications of personal data and technology systems, drawing on HCI, critical data studies, and STS. Her research centers on power dynamics and possibilities for resistance around everyday surveillance technologies, such as the smart home camera, particularly in domestic care work. Currently, she is a Martha H. Duggan Fellow in Caring Labor at the UW Harry Bridges Center for Labor Studies, and her work has been supported by a National Science Foundation Graduate Research Fellowship.</p>
         <button type="button" class="copy-bio" data-target="short-bio-text"><svg class="copy-icon" width="11" height="12" viewBox="0 0 11 12" aria-hidden="true"><rect x="3.3" y="0.6" width="7" height="8.2" fill="none" stroke="currentColor" stroke-width="1.1"/><path d="M0.6 3.2v8.2h7" fill="none" stroke="currentColor" stroke-width="1.1"/></svg><span class="copy-label">copy</span></button>
