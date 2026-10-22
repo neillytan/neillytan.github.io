@@ -6,10 +6,12 @@
     {%- for item in site.data.navigation -%}
       {%- if item.url == 'cv' -%}
         {%- assign href = site.cv_file | relative_url -%}
+        {%- assign target = ' target="_blank" rel="noopener"' -%}
       {%- else -%}
         {%- assign href = item.url | relative_url -%}
+        {%- assign target = '' -%}
       {%- endif -%}
-      <a href="{{ href }}"{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+      <a href="{{ href }}"{{ target }}{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
     {%- endfor -%}
   </nav>
 </header>
