@@ -49,12 +49,12 @@
       meta: w/ Prof. Spencer Williams
     - term: spring 2025
       role: TA
-      title: Slow Interaction Design
+      title: Special Topics in Slow Interaction Design
       code: HCDE 418
       meta: w/ Prof. Tyler Fox
     - term: spring 2021
       role: TA
-      title: Interaction Design for Everyday Reflection
+      title: Special Topics in Interaction Design for Everyday Reflection
       code: HCDE 418
       meta: w/ Prof. Jennifer Turns
     - subhead: "At Brown University:"
@@ -76,3 +76,31 @@
     - term: 2016–18
       role: Design Software Instructor
       meta: Computer Education
+
+- section: Guest Lectures
+  compact: true
+  items:
+    - term: fall 2026
+      role: Sketching Methods
+      title: Foundations of HCDE
+      code: HCDE 302
+    - term: spring 2026
+      role: Introduction to Accessibility
+      title: Interaction Design & Prototyping
+      code: HCDE 536
+    - term: fall 2025
+      role: Panel on Qualitative Research
+      title: Design Field Studies
+      code: DESIGN 481
+    - term: fall 2025, spring 2023
+      role: Guest Critique
+      title: Design Field Studies
+      code: DESIGN 481
+    - term: winter 2022
+      role: Panel on Interview Methods
+      title: Qualitative Research Methods
+      code: HCDE 519
+    - term: spring 2021
+      role: Sousveillance Theory Lineage
+      title: Theoretical Foundations
+      code: HCDE 542

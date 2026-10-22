@@ -60,33 +60,41 @@
 
 - section: Workshop Papers & Proposals
   items:
-    - id: W3
+    - id: W4
       url: https://cornell.app.box.com/s/x5bwn0e031frcig3qa8m8n9064llxvp5
       title: "Tracing Data and the Visual Image: Implications for Privacy and Consent with Smart Home Security Cameras."
       authors: <strong>Neilly H. Tan</strong>.
-      venue: CHI ’23 Workshop.
+      venue: CHI ’23 Workshop on The Future of HCI-Policy Collaboration.
+      venue_plain: Position paper.
       year: 2023
+    - id: W3
+      url: https://4sonline.org/news_manager.php?page=27336
+      title: "Material Experiments and Playful Disruptions: Interrogating Boundaries, Meanings, and Aesthetics of the Smart Camera."
+      authors: Richmond Y. Wong, <strong>Neilly H. Tan</strong>, Nathaniel Gray, Jason Valdez, & James Pierce.
+      venue: Society for Social Studies of Science (4S). Making and Doing Session.
+      year: 2021
     - id: W2
       doi: 10.1145/3462204.3481730
       title: "Subtle CSCW Traits: Tensions Around Identity Formation and Online Activism in the Asian Diaspora."
       authors: Calvin Liang, Emily Tseng, Sachin Pendse, Crystal Lee, Kimberley Allison, <strong>Neilly H. Tan</strong>, Ruotong Wang, Alexandra To, & Amy Zhang.
       venue: CSCW ’21 Companion.
+      venue_plain: Workshop proposal.
       year: 2021
     - id: W1
-      url: https://4sonline.org/news_manager.php?page=27336
-      title: "Material Experiments and Playful Disruptions: Interrogating Boundaries, Meanings, and Aesthetics of the Smart Camera."
-      authors: Richmond Y. Wong, <strong>Neilly H. Tan</strong>, Nathaniel Gray, Jason Valdez, & James Pierce.
-      venue: 4S, Making and Doing Session.
+      title: Human-Data Interaction through Design with Smart Home Cameras.
+      authors: <strong>Neilly Herrera Tan</strong>, Audrey Desjardins, & Sean A. Munson.
+      venue: "CHI ’21 Workshop: Human-Data Interaction Through Design: An Explorative Step from Theory to Practice Using Design as a Vehicle."
+      venue_plain: Position paper.
       year: 2021
 
 - section: Invited Talks
   items:
     - id: "2026"
       title: Caring Labor Futures in the Home.
-      venue_plain: Reclaiming the Futures of Work panel, Society for Social Studies of Science (4S). Toronto, Canada.
+      venue_plain: Reclaiming the Futures of Work panel, 4S. Toronto, Canada.
     - id: "2025"
       title: Subjectivities of/within Surveillance.
-      authors: with Claire Weizenegger.
+      authors: w/ Claire Weizenegger.
       venue_plain: The Rise of Research Security panel, 4S. Seattle, WA.
     - id: "2022"
       title: "Exploring, Enacting, Questioning: Critical and Design Research Perspectives on Sensing Technologies in the Home."
