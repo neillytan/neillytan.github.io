@@ -1,6 +1,6 @@
 # Mirrors the publication sections of the CV (see cv_file in _config.yml).
 # Each section renders as a group on /publications/.
-#   id      — the CV label (P1, W1, ...), shown in the left column. For talks, use the year.
+#   id      — the CV label, shown in the left column. Oldest is 1 (P1, W1); new items get the next number and go on top. For talks, use the year.
 #   authors — HTML, so your name can be bolded with <strong>. `*` = equal contribution.
 #   doi     — optional; e.g. 10.1145/3479592. Shown as a "DOI" link.
 #   pdf     — optional; put the file in assets/papers/ and point to it, e.g. /assets/papers/tan-chi22-x.pdf
@@ -10,19 +10,19 @@
 - section: Conference & Journal Publications
   note: Refereed. * indicates equal contribution.
   items:
-    - id: P1
+    - id: P7
       title: Everyday Layers of Resistance to Smart Camera Surveillance.
       authors: <strong>Neilly H. Tan</strong>, Audrey Desjardins, & Sean A. Munson.
       year: 2027
       status: in preparation
-    - id: P2
+    - id: P6
       doi: 10.1145/3831972
       pdf: /assets/papers/tan-ubicomp26-home-iot-care.pdf
       title: Negotiating Autonomy, Control, and Privacy in Always-On Home IoT Technology-Mediated Care Relationships with Older Adults.
       authors: Shengzhi Wang, <strong>Neilly H. Tan</strong>, & Sean A. Munson.
       venue: Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (Ubicomp ’26).
       year: 2026
-    - id: P3
+    - id: P5
       title: "Slanted Speculations: Material Encounters with Algorithmic Bias."
       doi: 10.1145/3532106.3533449
       pdf: /assets/papers/tan-dis22-slanted-speculations.pdf
@@ -36,21 +36,21 @@
       authors: <strong>Neilly H. Tan</strong>, Richmond Y. Wong, Audrey Desjardins, Sean A. Munson, & James Pierce.
       venue: Proc. ACM Conf. on Human Factors in Computing Systems (CHI ’22).
       year: 2022
-    - id: P5
+    - id: P3
       title: Critical-Playful Speculations with Cameras in the Home.
       doi: 10.1145/3491102.3502109
       pdf: /assets/papers/tan-chi22-critical-playful-speculations.pdf
       authors: <strong>Neilly H. Tan</strong>, Brian Kinnee, Dana Langseth, Sean A. Munson, & Audrey Desjardins.
       venue: Proc. ACM Conf. on Human Factors in Computing Systems (CHI ’22).
       year: 2022
-    - id: P6
+    - id: P2
       title: Case Studies on the Motivation and Performance of Contributors who Verify and Maintain In-Flux Tabular Datasets.
       doi: 10.1145/3479592
       pdf: /assets/papers/tan-cscw21-tabulardatasets.pdf
       authors: Shaun Wallace, Alexandra Papoutsaki, <strong>Neilly H. Tan</strong>, Hua Guo, & Jeff Huang.
       venue: Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 448 (Oct. ’21).
       year: 2021
-    - id: P7
+    - id: P1
       title: "Rewind: Automatically Reconstructing Everyday Memories with First-Person Perspectives."
       doi: 10.1145/3287069
       pdf: /assets/papers/tan-imwut18-rewind.pdf
@@ -60,17 +60,23 @@
 
 - section: Workshop Papers & Proposals
   items:
-    - id: W1
-      url: https://4sonline.org/news_manager.php?page=27336
-      title: "Material Experiments and Playful Disruptions: Interrogating Boundaries, Meanings, and Aesthetics of the Smart Camera."
-      authors: Richmond Y. Wong, <strong>Neilly H. Tan</strong>, Nathaniel Gray, Jason Valdez, & James Pierce.
-      venue: 4S, Making and Doing Session.
-      year: 2021
+    - id: W3
+      url: https://cornell.app.box.com/s/x5bwn0e031frcig3qa8m8n9064llxvp5
+      title: "Tracing Data and the Visual Image: Implications for Privacy and Consent with Smart Home Security Cameras."
+      authors: <strong>Neilly H. Tan</strong>.
+      venue: CHI ’23 Workshop.
+      year: 2023
     - id: W2
       doi: 10.1145/3462204.3481730
       title: "Subtle CSCW Traits: Tensions Around Identity Formation and Online Activism in the Asian Diaspora."
       authors: Calvin Liang, Emily Tseng, Sachin Pendse, Crystal Lee, Kimberley Allison, <strong>Neilly H. Tan</strong>, Ruotong Wang, Alexandra To, & Amy Zhang.
       venue: CSCW ’21 Companion.
+      year: 2021
+    - id: W1
+      url: https://4sonline.org/news_manager.php?page=27336
+      title: "Material Experiments and Playful Disruptions: Interrogating Boundaries, Meanings, and Aesthetics of the Smart Camera."
+      authors: Richmond Y. Wong, <strong>Neilly H. Tan</strong>, Nathaniel Gray, Jason Valdez, & James Pierce.
+      venue: 4S, Making and Doing Session.
       year: 2021
 
 - section: Invited Talks
