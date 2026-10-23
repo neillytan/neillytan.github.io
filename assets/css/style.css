@@ -123,6 +123,7 @@ p { margin: 0 0 1rem; }
 .news-date { font-family: var(--heading-font); font-size: 13px; color: var(--accent); text-transform: lowercase; padding-top: 2px; }
 .news > .news-list .news-date:first-of-type { background: var(--highlight); color: var(--text); padding: 0 4px; margin-top: 2px; justify-self: start; height: fit-content; }
 
+.news-star { font-size: 0.8em; margin-right: calc(0.5em + 1px); position: relative; top: -1px; }
 .news-more { margin-top: 14px; }
 .news-more summary { display: inline-block; cursor: pointer; list-style: none; font-family: var(--heading-font); font-size: 13px; color: var(--accent); border-bottom: 1.5px solid var(--accent); }
 .news-more summary::-webkit-details-marker { display: none; }
