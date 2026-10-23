@@ -9,7 +9,8 @@ page_class: pubs
 
 {%- for group in site.data.publications %}
 <section class="pub-section">
-  <h2>{{ group.section | downcase }}</h2>
+  {%- assign slug = group.section | slugify %}
+  <h2 id="{{ slug }}"><a class="heading-link" href="#{{ slug }}">{{ group.section | downcase }}</a></h2>
   {%- if group.note %}<p class="pub-note">{{ group.note }}</p>{% endif %}
   <div class="pub-list">
     {%- for p in group.items %}

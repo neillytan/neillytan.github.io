@@ -5,11 +5,11 @@ permalink: /teaching/
 page_class: pubs teach
 ---
 <h1>teaching</h1>
-<p class="name-note">Full details in my <a href="{{ site.cv_file | relative_url }}?v={{ site.time | date: '%s' }}" target="_blank" rel="noopener">CV</a>.</p>
 
 {%- for group in site.data.teaching %}
 <section class="pub-section{% if group.compact %} compact{% endif %}">
-  <h2>{{ group.section | downcase }}</h2>
+  {%- assign slug = group.section | slugify %}
+  <h2 id="{{ slug }}"><a class="heading-link" href="#{{ slug }}">{{ group.section | downcase }}</a></h2>
   {%- if group.note %}<p class="pub-note">{{ group.note }}</p>{% endif %}
   <div class="pub-list">
     {%- for t in group.items %}
@@ -17,6 +17,7 @@ page_class: pubs teach
     <h3 class="teach-subhead">{{ t.subhead }}</h3>
     {%- continue %}
     {%- endif %}
+    {%- capture meta_html %}{% if t.meta %}{% assign parts = t.meta | split: ' · ' %}{% for part in parts %}<span class="meta-part">{{ part }}{% unless forloop.last %}<span class="meta-sep" aria-hidden="true">·</span>{% endunless %}</span>{% unless forloop.last %}<wbr>{% endunless %}{% endfor %}{% endif %}{% endcapture %}
     {%- assign code_line = false %}{% if t.code and group.compact != true %}{% assign code_line = true %}{% endif %}
     <span class="pub-id"><span class="teach-term">{{ t.term }}</span>{% if t.code %}<span class="teach-code{% if code_line %} teach-code-m{% endif %}">{{ t.code }}</span>{% endif %}</span>
     <div class="pub{% unless t.meta %} pub-single{% endunless %}">
@@ -25,8 +26,8 @@ page_class: pubs teach
         {%- else %}{{ t.title | default: t.role }}{% endif -%}
       </p>
       {%- comment %} On desktop the course number sits on the "w/" line so the two always share a baseline. {% endcomment %}
-      {%- if code_line %}<p class="pub-meta{% unless t.meta %} pub-meta-code-only{% endunless %}"><span class="teach-code-d" aria-hidden="true">{{ t.code }}</span>{% if t.meta %}{{ t.meta }}{% else %}&nbsp;{% endif %}</p>
-      {%- elsif t.meta %}<p class="pub-meta">{{ t.meta }}</p>{% endif %}
+      {%- if code_line %}<p class="pub-meta{% unless t.meta %} pub-meta-code-only{% endunless %}"><span class="teach-code-d" aria-hidden="true">{{ t.code }}</span>{% if t.meta %}{{ meta_html }}{% else %}&nbsp;{% endif %}</p>
+      {%- elsif t.meta %}<p class="pub-meta">{{ meta_html }}</p>{% endif %}
     </div>
     {%- endfor %}
   </div>

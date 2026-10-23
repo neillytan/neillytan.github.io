@@ -11,26 +11,24 @@
   note: "* Directed research groups (DRGs) are small, project-based courses I designed and taught at the University of Washington."
   items:
     - term: winter–spring 2025
-      role: Instructor
       title: Careful Data Infrastructures in Home Childcare Work DRG*
       code: HCDE 496/596
+      meta: Organized w/ Daniela Rosner & Sean Munson
     - term: spring 2022
-      role: Co-instructor
       title: Older Adults and IoT DRG*
       code: HCDE 496/596
-      meta: w/ Shengzhi Wang
+      meta: Co-instructed w/ Shengzhi Wang · Organized w/ Sean Munson
     - term: winter 2021
-      role: Co-instructor
       title: Non-Primary IoT Users DRG*
       code: DESIGN 596
-      meta: w/ Richmond Wong
+      meta: Co-instructed w/ Richmond Wong · Organized w/ James Pierce
     - term: fall 2020
-      role: Instructor
       title: Discursive Design Inquiry with Home Cameras DRG*
       code: HCDE 496/596
+      meta: Organized w/ Audrey Desjardins & Sean Munson
     - term: spring 2016–18
-      role: Design Software Instructor
-      meta: Brown University · Brown University Computer Education
+      title: Design Software Instructor
+      meta: Brown University Computer Education
 
 - section: Teaching Assistant
   items:

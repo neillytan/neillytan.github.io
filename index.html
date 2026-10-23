@@ -47,7 +47,7 @@ page_class: home
 </section>
 
 <section class="news">
-  <h2>recent news</h2>
+  <h2 id="news">recent news</h2>
   <div class="news-list">
     {%- assign pinned = site.data.news | where: "pinned", true %}
     {%- assign unpinned = site.data.news | where_exp: "i", "i.pinned != true" %}
