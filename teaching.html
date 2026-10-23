@@ -5,7 +5,7 @@ permalink: /teaching/
 page_class: pubs teach
 ---
 <h1>teaching</h1>
-<p class="name-note">Full details in my <a href="{{ site.cv_file | relative_url }}" target="_blank" rel="noopener">CV</a>.</p>
+<p class="name-note">Full details in my <a href="{{ site.cv_file | relative_url }}?v={{ site.time | date: '%s' }}" target="_blank" rel="noopener">CV</a>.</p>
 
 {%- for group in site.data.teaching %}
 <section class="pub-section{% if group.compact %} compact{% endif %}">

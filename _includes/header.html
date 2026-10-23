@@ -5,7 +5,7 @@
   <nav class="site-nav">
     {%- for item in site.data.navigation -%}
       {%- if item.url == 'cv' -%}
-        {%- assign href = site.cv_file | relative_url -%}
+        {%- capture href %}{{ site.cv_file | relative_url }}?v={{ site.time | date: '%s' }}{% endcapture -%}
         {%- assign target = ' target="_blank" rel="noopener"' -%}
       {%- else -%}
         {%- assign href = item.url | relative_url -%}

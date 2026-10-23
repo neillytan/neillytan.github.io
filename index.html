@@ -20,7 +20,7 @@ page_class: home
 
     <p class="contact">
       <span class="icon icon-mail">✉</span><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#104;&#116;&#97;&#110;&#64;&#117;&#119;&#46;&#101;&#100;&#117;">{{ site.email_display }}</a><br>
-      <span class="icon icon-doc"><svg width="14" height="17" viewBox="0 0 10 12" aria-hidden="true"><path d="M1.5 .75h4.5l2.75 2.75v7.75h-7.25z M6 .75v2.75h2.75 M3 6h4 M3 8.25h4" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg></span><span class="contact-wrap"><a href="{{ site.cv_file | relative_url }}" target="_blank" rel="noopener">Curriculum Vitae</a> <em>(updated {{ site.cv_updated }})</em></span>
+      <span class="icon icon-doc"><svg width="14" height="17" viewBox="0 0 10 12" aria-hidden="true"><path d="M1.5 .75h4.5l2.75 2.75v7.75h-7.25z M6 .75v2.75h2.75 M3 6h4 M3 8.25h4" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg></span><span class="contact-wrap"><a href="{{ site.cv_file | relative_url }}?v={{ site.time | date: '%s' }}" target="_blank" rel="noopener">Curriculum Vitae</a> <em>(updated {{ site.cv_updated }})</em></span>
       {%- if site.scholar_url and site.scholar_url != "" %}<br>
       <span class="icon">✎</span><a href="{{ site.scholar_url }}">Google Scholar</a>
       {%- if site.linkedin_url and site.linkedin_url != "" %} · <span class="icon-inline">⧉</span><a href="{{ site.linkedin_url }}">LinkedIn</a>{% endif %}{% endif %}
