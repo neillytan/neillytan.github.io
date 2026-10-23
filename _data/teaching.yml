@@ -7,31 +7,33 @@
 #   code  — course number, shown in gray under the term
 #   meta  — optional small gray line under the title (e.g. instructor · university)
 
-- section: Directed Research Groups
-  note: Small, project-based groups at the University of Washington.
+- section: Instructor
+  note: "* Directed research groups (DRGs) are small, project-based courses I designed and taught at the University of Washington."
   items:
     - term: winter–spring 2025
       role: Instructor
-      title: Careful Data Infrastructures in Home Childcare Work
+      title: Careful Data Infrastructures in Home Childcare Work DRG*
       code: HCDE 496/596
     - term: spring 2022
       role: Co-instructor
-      title: Older Adults and IoT
+      title: Older Adults and IoT DRG*
       code: HCDE 496/596
       meta: w/ Shengzhi Wang
     - term: winter 2021
       role: Co-instructor
-      title: Non-Primary IoT Users
+      title: Non-Primary IoT Users DRG*
       code: DESIGN 596
       meta: w/ Richmond Wong
     - term: fall 2020
       role: Instructor
-      title: Discursive Design Inquiry with Home Cameras
+      title: Discursive Design Inquiry with Home Cameras DRG*
       code: HCDE 496/596
+    - term: spring 2016–18
+      role: Design Software Instructor
+      meta: Brown University · Brown University Computer Education
 
-- section: Courses
+- section: Teaching Assistant
   items:
-    - subhead: "At the University of Washington:"
     - term: fall 2026
       role: TA
       title: Foundations of HCDE
@@ -57,25 +59,21 @@
       title: Special Topics in Interaction Design for Everyday Reflection
       code: HCDE 418
       meta: w/ Prof. Jennifer Turns
-    - subhead: "At Brown University:"
     - term: fall 2018
       role: TA
       title: Statistical Methods
       code: CLPS 0900
-      meta: w/ Prof. Kathryn Spoehr
+      meta: Brown University · w/ Prof. Kathryn Spoehr
     - term: fall 2017
       role: Head TA
       title: User Interfaces & User Experiences
-      code: CSCI 1300
-      meta: w/ Prof. Jeff Huang
+      code: CSCI 130/1300
+      meta: Brown University · w/ Prof. Jeff Huang
     - term: fall 2016
       role: TA
       title: User Interfaces & User Experiences
       code: CSCI 1300
-      meta: w/ Prof. Jeff Huang
-    - term: 2016–18
-      role: Design Software Instructor
-      meta: Computer Education
+      meta: Brown University · w/ Prof. Jeff Huang
 
 - section: Guest Lectures
   compact: true
