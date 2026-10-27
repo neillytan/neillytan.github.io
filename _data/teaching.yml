@@ -37,32 +37,26 @@
 - section: Teaching Assistant
   items:
     - term: fall 2026
-      role: TA
       title: Foundations of HCDE
       code: HCDE 302
       meta: w/ Prof. Arpita B.
     - term: spring 2026
-      role: TA
       title: Interaction Design & Prototyping
       code: HCDE 536
       meta: w/ Prof. Paula Te
     - term: summer 2025
-      role: TA
       title: Research Methods
       code: INFO 300
       meta: w/ Prof. Spencer Williams
     - term: spring 2025
-      role: TA
       title: "Special Topics: Slow Interaction Design"
       code: HCDE 418
       meta: w/ Prof. Tyler Fox
     - term: spring 2021
-      role: TA
       title: "Special Topics: Interaction Design for Everyday Reflection"
       code: HCDE 418
       meta: w/ Prof. Jennifer Turns
     - term: fall 2018
-      role: TA
       title: Statistical Methods
       code: CLPS 0900
       meta: Brown University · w/ Prof. Kathryn Spoehr
@@ -72,7 +66,6 @@
       code: CSCI 0130/1300
       meta: Brown University · w/ Prof. Jeff Huang · Co-led hiring & management of 15-person TA team
     - term: fall 2016
-      role: TA
       title: User Interfaces & User Experiences
       code: CSCI 1300
       meta: Brown University · w/ Prof. Jeff Huang
