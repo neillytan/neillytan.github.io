@@ -31,5 +31,6 @@ page_class: pubs teach
     </div>
     {%- endfor %}
   </div>
+  {%- if group.footnote %}<p class="pub-note pub-footnote">{{ group.footnote }}</p>{% endif %}
 </section>
 {%- endfor %}

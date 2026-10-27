@@ -8,7 +8,7 @@
 #   meta  — optional small gray line under the title (e.g. instructor · university)
 
 - section: Instructor
-  note: "* Directed research groups (DRGs) are small, project-based courses I designed and taught at the University of Washington."
+  footnote: "* Directed research groups (DRGs) are small, project-based courses I designed and taught at the University of Washington."
   items:
     - term: winter–spring 2025
       title: Careful Data Infrastructures in Home Childcare Work DRG*
