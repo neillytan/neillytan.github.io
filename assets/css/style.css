@@ -204,7 +204,7 @@ h2[id] { scroll-margin-top: 80px; }
 .teach-subhead { grid-column: 1 / -1; justify-self: start; margin: 6px 0 4px; padding: 0; font-family: var(--heading-font); font-size: 13px; font-weight: 400; letter-spacing: 0.03em; color: #8a857c; }
 .teach-subhead ~ .teach-subhead { margin-top: 18px; }
 .teach .pub-list > .teach-subhead:first-child { margin-top: -12px; }
-.teach .compact .pub-list { row-gap: 10px; grid-template-columns: 179px minmax(0, 1fr); }
+.teach .compact .pub-list { row-gap: 10px; grid-template-columns: 199px minmax(0, 1fr); }
 .teach .compact .pub-id { padding-top: 0; }
 .teach .compact .teach-term { margin-right: 10px; white-space: nowrap; }
 .teach .compact .teach-code { display: inline-block; margin: 0; white-space: nowrap; }
