@@ -19,14 +19,14 @@ page_class: pubs teach
     {%- endif %}
     {%- capture meta_html %}{% if t.meta %}{% assign parts = t.meta | split: ' · ' %}{% for part in parts %}<span class="meta-part">{{ part }}{% unless forloop.last %}<span class="meta-sep" aria-hidden="true">·</span>{% endunless %}</span>{% unless forloop.last %}<wbr>{% endunless %}{% endfor %}{% endif %}{% endcapture %}
     {%- assign code_line = false %}{% if t.code and group.compact != true %}{% assign code_line = true %}{% endif %}
-    <span class="pub-id"><span class="teach-term">{{ t.term }}</span>{% if t.code %}<span class="teach-code{% if code_line %} teach-code-m{% endif %}">{{ t.code }}</span>{% endif %}</span>
+    <span class="pub-id"><span class="teach-term">{{ t.term }}</span>{% if t.code %}<span class="teach-code{% if code_line %} teach-code-m{% endif %}"><span class="code-chip">{{ t.code }}</span></span>{% endif %}</span>
     <div class="pub{% unless t.meta %} pub-single{% endunless %}">
       <p class="pub-title">
         {%- if t.role and t.title %}<span class="teach-role">{{ t.role }}:</span> {{ t.title }}
         {%- else %}{{ t.title | default: t.role }}{% endif -%}
       </p>
       {%- comment %} On desktop the course number sits on the "w/" line so the two always share a baseline. {% endcomment %}
-      {%- if code_line %}<p class="pub-meta{% unless t.meta %} pub-meta-code-only{% endunless %}"><span class="teach-code-d" aria-hidden="true">{{ t.code }}</span>{% if t.meta %}{{ meta_html }}{% else %}&nbsp;{% endif %}</p>
+      {%- if code_line %}<p class="pub-meta{% unless t.meta %} pub-meta-code-only{% endunless %}"><span class="teach-code-d" aria-hidden="true"><span class="code-chip">{{ t.code }}</span></span>{% if t.meta %}{{ meta_html }}{% else %}&nbsp;{% endif %}</p>
       {%- elsif t.meta %}<p class="pub-meta">{{ meta_html }}</p>{% endif %}
     </div>
     {%- endfor %}
