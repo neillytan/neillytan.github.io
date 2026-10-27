@@ -10,22 +10,26 @@
 - section: Instructor
   footnote: "* Directed research groups (DRGs) are small, project-based courses I designed and taught at the University of Washington."
   items:
+    - term: winter 2027
+      title: Information Policy Design
+      code: INFO 355
+      meta: Upcoming · Information School
     - term: winter–spring 2025
       title: Careful Data Infrastructures in Home Childcare Work DRG*
       code: HCDE 496/596
-      meta: Organized w/ Daniela Rosner & Sean Munson
+      meta: "Faculty sponsors: Daniela Rosner & Sean Munson"
     - term: spring 2022
       title: Older Adults and IoT DRG*
       code: HCDE 496/596
-      meta: Co-instructed w/ Shengzhi Wang · Organized w/ Sean Munson
+      meta: "Co-instructed w/ Shengzhi Wang · Faculty sponsor: Sean Munson"
     - term: winter 2021
       title: Non-Primary IoT Users DRG*
       code: DESIGN 596
-      meta: Co-instructed w/ Richmond Wong · Organized w/ James Pierce
+      meta: "Co-instructed w/ Richmond Wong · Faculty sponsor: James Pierce"
     - term: fall 2020
       title: Discursive Design Inquiry with Home Cameras DRG*
       code: HCDE 496/596
-      meta: Organized w/ Audrey Desjardins & Sean Munson
+      meta: "Faculty sponsors: Audrey Desjardins & Sean Munson"
     - term: spring 2016–18
       title: Design Software Instructor
       meta: Brown University Computer Education
@@ -49,12 +53,12 @@
       meta: w/ Prof. Spencer Williams
     - term: spring 2025
       role: TA
-      title: Special Topics in Slow Interaction Design
+      title: "Special Topics: Slow Interaction Design"
       code: HCDE 418
       meta: w/ Prof. Tyler Fox
     - term: spring 2021
       role: TA
-      title: Special Topics in Interaction Design for Everyday Reflection
+      title: "Special Topics: Interaction Design for Everyday Reflection"
       code: HCDE 418
       meta: w/ Prof. Jennifer Turns
     - term: fall 2018
@@ -65,8 +69,8 @@
     - term: fall 2017
       role: Head TA
       title: User Interfaces & User Experiences
-      code: CSCI 130/1300
-      meta: Brown University · w/ Prof. Jeff Huang
+      code: CSCI 0130/1300
+      meta: Brown University · w/ Prof. Jeff Huang · Co-led hiring & management of 15-person TA team
     - term: fall 2016
       role: TA
       title: User Interfaces & User Experiences
